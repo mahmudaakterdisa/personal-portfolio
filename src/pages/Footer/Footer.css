@@ -1,0 +1,13 @@
+/* .footer-container {
+
+
+    width: 100vw;
+} */
+
+.footer-body {
+    position: absolute;
+    top: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
