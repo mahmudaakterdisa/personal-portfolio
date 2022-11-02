@@ -5,7 +5,7 @@ import Header from '../pages/Header/Header';
 import './Main.css'
 const Main = () => {
     return (
-        <div className='mainbody'>
+        <div className='layout-container'>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
