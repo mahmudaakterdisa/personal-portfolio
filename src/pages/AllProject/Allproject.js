@@ -19,9 +19,11 @@ const Allproject = ({ project }) => {
 
             </div>
 
+
             <div className='projectimage-container'>
                 <img src={project_image} alt="project" />
             </div>
+
         </div>
 
 
