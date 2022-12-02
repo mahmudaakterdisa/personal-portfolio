@@ -5,10 +5,15 @@ import Header from '../pages/Header/Header';
 import './Main.css'
 const Main = () => {
     return (
-        <div className='layout-container'>
+        <div>
             <Header></Header>
+
             <Outlet></Outlet>
+
+
             <Footer></Footer>
+
+
         </div>
     );
 };

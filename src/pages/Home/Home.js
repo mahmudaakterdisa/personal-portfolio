@@ -7,13 +7,13 @@ const Home = () => {
         <div className='home-container'>
 
             <div className='image-container'>
-                <img src="https://s30876.pcdn.co/wp-content/uploads/Writing-a-Personal-Profile-for-your-CV-1170x630.jpg.optimal.jpg" alt="myphoto" />
+                <img src="https://img.freepik.com/free-photo/sky-nature-photo-with-motivative-quotes_53876-124522.jpg?w=900&t=st=1669675130~exp=1669675730~hmac=b294c85267b071806e679b002b040544a0be0b18460d894ad5a9ce93169792e8" alt="myphoto" />
             </div>
             <div className='about-container'>
                 <h1>Hello</h1>
                 <h3>A Bit About Me</h3>
                 <p>
-                    I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                    I'm Mahmuda Akter Disa.I have created a variety of web pages. i am passionate about responsive websites and cutting-edge, pixel-perfect, gorgeous interfaces.
                 </p>
                 <div className='button-container'>
                     <Link to='/resume'>

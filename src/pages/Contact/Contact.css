@@ -1,0 +1,79 @@
+.contact {
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: 10%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+
+.contacts-container {
+
+    width: 80%;
+    height: 90%;
+    padding: 2%;
+    margin-left: 10%;
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contacts-container hr {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.contacts-container a h3 {
+    margin-left: 48%;
+    color: black
+}
+
+.other-contacts {
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .contact {
+        width: 100vw;
+        height: 70vh;
+
+        margin-bottom: 15%;
+
+    }
+
+    .contacts-container {
+        height: 100%;
+
+        padding-top: 21%;
+
+
+    }
+}
+
+/* for medium screen */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .contact {
+        width: 100vw;
+        height: 100vh;
+
+        margin-top: 15%;
+        margin-bottom: 15%;
+
+
+    }
+
+    .contacts-container {
+        height: 100%;
+        width: 80%;
+
+        padding-top: 28%;
+
+
+    }
+
+
+}

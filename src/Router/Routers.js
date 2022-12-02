@@ -21,6 +21,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'projects',
+                loader: () => fetch('https://portfolio-server-site.vercel.app/projects'),
                 element: <Projects></Projects>
             },
             {

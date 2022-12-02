@@ -2,8 +2,7 @@
     color: White;
     font-size: larger;
     font-weight: bolder;
-    background-color: purple;
-
+    background-color: hsl(var(--sf, var(--s)) / var(--tw-bg-opacity));
     border-radius: 20%;
 }
 
@@ -23,5 +22,10 @@
     color: White;
     background-color: blue;
 
-    /* border-radius: 30%; */
+
+}
+
+.right-content li {
+    color: white;
+
 }
