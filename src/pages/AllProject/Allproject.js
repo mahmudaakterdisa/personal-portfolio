@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Allproject.css'
 
 const Allproject = ({ project }) => {
-    const { project_name, project_description, project_image, Project_link } = project;
+    const { project_name, project_description, project_image, Project_link, github_link } = project;
     return (
 
         <div className='allproject-container'>
@@ -13,7 +13,7 @@ const Allproject = ({ project }) => {
                 <a href={Project_link} target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-active btn-secondary mr-3">project Link</button>
                 </a>
-                <a href={Project_link} target="_blank" rel="noopener noreferrer">
+                <a href={github_link} target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-active btn-secondary ">Explore Github</button>
                 </a>
 

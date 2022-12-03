@@ -7,11 +7,9 @@
 
     width: 80%;
     height: 80%;
-    background-color: gainsboro;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
-    padding: 10%;
     border-radius: 10px;
 }
 
@@ -38,17 +36,12 @@
         width: 100vw;
         height: 80vh;
         padding-top: 25%;
-
-
     }
 
     .resume-container {
         height: 65%;
         width: 85%;
-        padding-top: 27%;
         margin-left: 8%;
-
-
     }
 }
 
@@ -59,18 +52,9 @@
         width: 100vw;
         height: 100vh;
         padding-top: 17%;
-
-
-
-
     }
 
     .resume-container {
-
         height: 60%;
-        padding-top: 15%;
-
-
-
     }
 }

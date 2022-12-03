@@ -1,20 +1,19 @@
 .home-container {
     width: 80vw;
-    /* height: 100vh; */
-    margin-top: 10%;
+    height: 100vh;
+    margin-top: 20%;
     margin-bottom: 10%;
-    /* background-color: cadetblue; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2%;
     margin-left: 10%;
+
 }
 
 
 
 .image-container img {
     width: 100%;
-    border-radius: 7%;
     padding: 5%;
 
 }
@@ -22,26 +21,27 @@
 .about-container {
     width: 100%;
     height: 100%;
-    /* background-color: chartreuse; */
+    padding: 3%;
+}
+
+.about-container span {
+    font-size: larger;
 }
 
 .button-container {
     width: 100%;
     height: 100%;
-    /* background-color: brown; */
 }
 
 .resume-btn {
     color: white;
-    background-color: cadetblue;
     margin-right: 3%;
     padding: 8% 5%;
     border-radius: 50%;
 }
 
 .resume-btn:hover {
-    /* background-color: red;
-    color: white; */
+
     color: black;
     background-color: white;
     border: 2px solid black;
@@ -49,7 +49,6 @@
 
 .project-btn {
     color: white;
-    background-color: purple;
     margin-right: 3%;
     padding: 8% 5%;
     border-radius: 50%;
@@ -63,7 +62,6 @@
 
 .contacts-btn {
     color: white;
-    background-color: goldenrod;
     padding: 8% 5%;
     border-radius: 50%;
 }
@@ -74,13 +72,13 @@
     border: 2px solid black;
 }
 
-/* media query for responsive */
+/* media query for mobile responsive */
 
 @media only screen and (max-width: 576px) {
     .home-container {
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 70vh;
         display: grid;
         row-gap: 2%;
         grid-template-columns: repeat(1, 1fr);
@@ -88,7 +86,7 @@
 
         margin-top: 10%;
         margin-bottom: 32%;
-        /* padding-bottom: 5%; */
+
 
 
 
@@ -110,9 +108,9 @@
 
     .home-container {
         width: 100%;
-        height: 100%;
+        height: 100vh;
         margin-top: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 0;
 
 
         display: grid;
@@ -120,11 +118,18 @@
         row-gap: 2%;
         margin-left: 0;
         padding-bottom: 5%;
+
+    }
+
+    .image-container {
+        height: 40%;
     }
 
     .about-container {
+        height: 40%;
         padding-left: 5%;
         padding-right: 5%;
+
     }
 
     .button-container {
@@ -132,22 +137,4 @@
         height: 10%;
     }
 
-}
-
-/* for larger screen */
-@media screen and (min-width: 993px) and (max-width: 1400px) {
-    .home-container {
-        width: 80vw;
-        height: 80vh;
-        margin-top: 10%;
-        margin-bottom: 10%;
-
-
-
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2%;
-        margin-left: 10%;
-        padding: 5%;
-    }
 }

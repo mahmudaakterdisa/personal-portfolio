@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="navbar bg-dark  ">
+        <div className="navbar bg-dark">
             <div className="md:flex-1 lg:flex-1 sm:flex-1  lefttext ">
                 <a href='/' className="btn btn-ghost normal-case text-xl ml-5">MD</a>
 

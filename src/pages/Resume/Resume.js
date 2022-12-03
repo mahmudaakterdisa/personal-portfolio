@@ -18,7 +18,7 @@ const Resume = () => {
     }
     return (
         <div className='resume'>
-            <div className='resume-container' >
+            <div className='resume-container bg-gray-300 flex flex-col sm:flex-col justify-center items-center' >
                 <center className='resume-elements' >
 
                     <h3>Please Click on below button to download My Resume</h3>
